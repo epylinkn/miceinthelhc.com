@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <title>MITLHC – Projects</title>
+    <link rel="icon" type="image/png" href="/dist/images/favicon.png" />
+    <meta name="description" content="What are we?" />
+    <meta name="keywords" content="mice in the large hadron collider" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <link rel="stylesheet" href="/dist/css/slider.css" />
+    <link rel="stylesheet" href="/dist/css/superslides.css" />
+    <link rel="stylesheet" href="/dist/css/iconstyle.css" />
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+  <body class="touch">
+    <progress id="progressbar" value="0" max="100"></progress>
+
+    <section>
+      <div id="main"></div>
+      <div class="container-fluid">
+        <!--CONTENT-->
+        <div class="row">
+          <div class="col-xs-12 col-md-3 col-lg-2">
+            <div class="logowrapper">
+              <a href="/">
+                MICE
+                <br/>
+                IN
+                <br/>
+                THE
+                <br/>
+                LARGE
+                <br/>
+                HADRON
+                <br/>
+                COLLIDER
+              </a>
+            </div>
+
+            <div class="navtoggle" id="nav-icon3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!--/ hidden -->
+
+            <nav id="nav" role="navigation">
+              <dl
+                data-toggle="collapse"
+                data-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                <a class="mainactive" href="projects/interactive.html">Projects</a>
+
+                <dt>
+                  <a href="/projects/interactive.html">
+                    &nbsp;&nbsp;Interactive
+                  </a>
+                </dt>
+                <dt>
+                  <a href="/projects/audiovisual">
+                    &nbsp;&nbsp;Audio / Visual
+                  </a>
+                </dt>
+                <dt>
+                  <a href="/projects/mixed-reality">
+                    &nbsp;&nbsp;Mixed Reality
+                  </a>
+                </dt>
+              </dl>
+
+              <dl
+                data-toggle="collapse"
+                data-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                <a href="/about">About</a>
+              </dl>
+              <dl
+                data-toggle="collapse"
+                data-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                <a href="/careers" >We're Hiring!</a >
+              </dl>
+            </nav>
+          </div>
+
+          <div class="col-xs-12 col-md-9 col-lg-8">
+            <p class="introdescription">
+              We are an art & design collective.
+            </p>
+            <div class="about">
+              <p>
+                We are a collective of artists, engineers, and designers on a mission to bring joy to unexpected places.
+                Formed while studying art and technology together at the Interactive Telecommunications Program at the Tisch School of the Arts and found a shared interest in exploring how technology can enable new modes of playful interaction. While each member has their medium of choice, they all come together to create installations in mixed media that subvert expectations of public space and challenge daily mundanity.
+              </p>
+              <p>
+                Areas of work include interactive, physical, digital, virtual, and augmented spaces.
+              </p>
+
+              <div class="about-members" style="margin-top: 2rem;">
+                <p style="font-weight: bold; margin-bottom: 0;">
+                  Team
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FlexSlider script -->
+    <script src="/dist/js/jquery.animate-enhanced.min.js"></script>
+    <script src="/dist/js/jquery.easing.1.3.js"></script>
+    <script src="/dist/js/jquery.superslides.min.js"></script>
+    <script src="/dist/js/jquery.flexslider.js"></script>
+    <script src="/dist/js/lazysizes.min.js"></script>
+    <script src="/dist/js/modernizr.js"></script>
+    <script src="/dist/js/site.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function () {
+        $(".flexslider").flexslider({
+          animation: "fade",
+          start: function (slider) {
+            slider.find(".current-slide").text(slider.currentSlide + 1);
+            slider.find(".total-slides").text(slider.count);
+          },
+          after: function (slider) {
+            slider.find(".current-slide").text(slider.currentSlide + 1);
+            slider.find(".total-slides").text(slider.count);
+          },
+        });
+
+        function shuffle(a) {
+            var j, x, i;
+            for (i = a.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * (i + 1));
+                x = a[i];
+                a[i] = a[j];
+                a[j] = x;
+            }
+            return a;
+        }
+        const names = shuffle(["Asha Veeraswamy", "Anthony Bui", "Brandon Newberg", "Roland Arnoldt", "Mai Iszak", "Kimberly Lin"]);
+        const members = names.map(function(name) {
+          return "<dl>" + name + "</dl>";
+        }).join("");
+        $(".about-members").append(members);
+      });
+    </script>
+    <script type="text/javascript">
+      $(window).scroll(function () {
+        var s = $(window).scrollTop(),
+          d = $(document).height(),
+          c = $(window).height();
+        scrollPercent = (s / (d - c)) * 100;
+        var position = scrollPercent;
+
+        $("#progressbar").attr("value", position);
+      });
+    </script>
+  </body>
+</html>
