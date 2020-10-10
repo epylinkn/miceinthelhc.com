@@ -36,7 +36,7 @@ font-feature-settings: "liga", "kern";
 
 h1, h2, p, dt, dl	{
 	
-	font-family: 'Haas Grot Text Web';
+	font-family: 'Inter';
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -75,7 +75,7 @@ dl	{
 	}
 	
 .introdescription {
-	font-family: Haas Grot Disp Web; 
+	font-family: Inter; 
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
