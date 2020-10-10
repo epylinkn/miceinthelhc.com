@@ -1,0 +1,300 @@
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2013 Schwartzco Inc.
+	1512-LDBTEQ
+*/
+
+
+	.HaasGrotDisp-25XThin-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-16XXThinItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-66MediumItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-55Roman-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-45Light-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-26XThinItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-35Thin-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-36ThinItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-75Bold-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-65Medium-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-95Black-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-56Italic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-46LightItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-76BoldItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-96BlackItalic-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotDisp-15XXThin-Web {
+	font-family: "Haas Grot Disp Web";
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-25XThin-Web.eot");
+	src: url("HaasGrotDisp-25XThin-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-25XThin-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-25XThin-Web.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-16XXThinItalic-Web.eot");
+	src: url("HaasGrotDisp-16XXThinItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-16XXThinItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-16XXThinItalic-Web.woff") format("woff");
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-66MediumItalic-Web.eot");
+	src: url("HaasGrotDisp-66MediumItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-66MediumItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-66MediumItalic-Web.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-55Roman-Web.eot");
+	src: url("HaasGrotDisp-55Roman-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-55Roman-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-55Roman-Web.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-45Light-Web.eot");
+	src: url("HaasGrotDisp-45Light-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-45Light-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-45Light-Web.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-26XThinItalic-Web.eot");
+	src: url("HaasGrotDisp-26XThinItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-26XThinItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-26XThinItalic-Web.woff") format("woff");
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-35Thin-Web.eot");
+	src: url("HaasGrotDisp-35Thin-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-35Thin-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-35Thin-Web.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-36ThinItalic-Web.eot");
+	src: url("HaasGrotDisp-36ThinItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-36ThinItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-36ThinItalic-Web.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-75Bold-Web.eot");
+	src: url("HaasGrotDisp-75Bold-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-75Bold-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-75Bold-Web.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-65Medium-Web.eot");
+	src: url("HaasGrotDisp-65Medium-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-65Medium-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-65Medium-Web.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-95Black-Web.eot");
+	src: url("HaasGrotDisp-95Black-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-95Black-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-95Black-Web.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-56Italic-Web.eot");
+	src: url("HaasGrotDisp-56Italic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-56Italic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-56Italic-Web.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-46LightItalic-Web.eot");
+	src: url("HaasGrotDisp-46LightItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-46LightItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-46LightItalic-Web.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-76BoldItalic-Web.eot");
+	src: url("HaasGrotDisp-76BoldItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-76BoldItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-76BoldItalic-Web.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-96BlackItalic-Web.eot");
+	src: url("HaasGrotDisp-96BlackItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-96BlackItalic-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-96BlackItalic-Web.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Disp Web";
+	src: url("HaasGrotDisp-15XXThin-Web.eot");
+	src: url("HaasGrotDisp-15XXThin-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotDisp-15XXThin-Web.woff2") format("woff2"),
+	url("HaasGrotDisp-15XXThin-Web.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	}

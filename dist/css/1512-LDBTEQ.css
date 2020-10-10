@@ -1,0 +1,120 @@
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2013 Schwartzco Inc.
+	1512-LDBTEQ
+*/
+
+
+	.HaasGrotText-76BoldItalic-Web {
+	font-family: "Haas Grot Text Web";
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotText-66MediumItalic-Web {
+	font-family: "Haas Grot Text Web";
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotText-56Italic-Web {
+	font-family: "Haas Grot Text Web";
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	.HaasGrotText-55Roman-Web {
+	font-family: "Haas Grot Text Web";
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotText-75Bold-Web {
+	font-family: "Haas Grot Text Web";
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	.HaasGrotText-65Medium-Web {
+	font-family: "Haas Grot Text Web";
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Text Web";
+	src: url("HaasGrotText-76BoldItalic-Web.eot");
+	src: url("HaasGrotText-76BoldItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotText-76BoldItalic-Web.woff2") format("woff2"),
+	url("HaasGrotText-76BoldItalic-Web.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Text Web";
+	src: url("HaasGrotText-66MediumItalic-Web.eot");
+	src: url("HaasGrotText-66MediumItalic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotText-66MediumItalic-Web.woff2") format("woff2"),
+	url("HaasGrotText-66MediumItalic-Web.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Text Web";
+	src: url("HaasGrotText-56Italic-Web.eot");
+	src: url("HaasGrotText-56Italic-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotText-56Italic-Web.woff2") format("woff2"),
+	url("HaasGrotText-56Italic-Web.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Text Web";
+	src: url("HaasGrotText-55Roman-Web.eot");
+	src: url("HaasGrotText-55Roman-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotText-55Roman-Web.woff2") format("woff2"),
+	url("HaasGrotText-55Roman-Web.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Text Web";
+	src: url("HaasGrotText-75Bold-Web.eot");
+	src: url("HaasGrotText-75Bold-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotText-75Bold-Web.woff2") format("woff2"),
+	url("HaasGrotText-75Bold-Web.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	}
+
+	@font-face {
+	font-family: "Haas Grot Text Web";
+	src: url("HaasGrotText-65Medium-Web.eot");
+	src: url("HaasGrotText-65Medium-Web.eot?#iefix") format("embedded-opentype"),
+	url("HaasGrotText-65Medium-Web.woff2") format("woff2"),
+	url("HaasGrotText-65Medium-Web.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	}
