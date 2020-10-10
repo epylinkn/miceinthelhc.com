@@ -154,9 +154,8 @@ progress[value]::-moz-progress-bar {
 	position: fixed;
 	width: 200px;
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 35px;
 	line-height: 26px;
-
 	display: inline-block;
 	bottom: 60px;
 	left: 0;
