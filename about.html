@@ -103,9 +103,20 @@
             <p class="introdescription">
               We are an art & design collective.
             </p>
+            <div class="about">
+              <p>
+                We are a collective of artists, engineers, and designers on a mission to bring joy to unexpected places.
+                Formed while studying art and technology together at the Interactive Telecommunications Program at the Tisch School of the Arts and found a shared interest in exploring how technology can enable new modes of playful interaction. While each member has their medium of choice, they all come together to create installations in mixed media that subvert expectations of public space and challenge daily mundanity.
+              </p>
+              <p>
+                Areas of work include interactive, physical, digital, virtual, and augmented spaces.
+              </p>
 
-            <div class="img-wrapper">
-              <img src="/dist/images/miceinthelhc.jpg" style="width: 100%;" />
+              <div class="about-members" style="margin-top: 2rem;">
+                <p style="font-weight: bold; margin-bottom: 0;">
+                  Team
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -133,6 +144,22 @@
             slider.find(".total-slides").text(slider.count);
           },
         });
+
+        function shuffle(a) {
+            var j, x, i;
+            for (i = a.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * (i + 1));
+                x = a[i];
+                a[i] = a[j];
+                a[j] = x;
+            }
+            return a;
+        }
+        const names = shuffle(["Asha Veeraswamy", "Anthony Bui", "Brandon Newberg", "Roland Arnoldt", "Mai Iszak", "Kimberly Lin"]);
+        const members = names.map(function(name) {
+          return "<dl>" + name + "</dl>";
+        }).join("");
+        $(".about-members").append(members);
       });
     </script>
     <script type="text/javascript">

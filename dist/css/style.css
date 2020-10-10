@@ -285,6 +285,12 @@ a.active	{
 		color: rgb(0, 143, 26);
 		}
 
+/* --------- ABOUT --------- */
+.about p {
+	font-size: 20px;
+	margin-bottom: 1rem;
+}
+
 /* --------- jQueryCAROUSEL --------- */
 
 .slides-container	{
