@@ -303,6 +303,10 @@ body {
 	padding-right: 0;
 	}
 
+	.sauce {
+		min-height: 180px;
+	}
+
 
 .container-fluid {
 	margin-right: 25px;
@@ -315,11 +319,12 @@ body {
 
 .blurb	{display: inline;}
 
-div.logowrapper {
+.logowrapper {
     top: 0;
     bottom: auto;
     padding: 1.25em 0 1.25em 25px;
     background-color: rgb(255,255,255);
+		width: 100%;
 
     z-index: 1;
 
